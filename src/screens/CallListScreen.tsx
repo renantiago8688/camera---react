@@ -46,8 +46,8 @@ export default function CallListScreen({ navigation }: any) {
       }
  
       carregarChamados();
-
-       return () => {
+ 
+      return () => {
         ativo = false;
       };
     }, [])
